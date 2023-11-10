@@ -232,19 +232,26 @@ header a {
    
 }
 #func{
-    position: relative; /*Lembrar de colocar o postion */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
 
+}
+#func-container{
+    width: 100%;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
 }
 
 #func h2,h1{
    text-align: center;
 }
 #func div {
-    display: inline-block;
-    margin-left: 70px;
-    margin-right: 70px;
-    position: relative;
+
     top: 30px;
     vertical-align: top; 
     margin-top: 10px;

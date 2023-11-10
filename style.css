@@ -59,6 +59,10 @@ header a {
     background-size: contain;
 }
 #E-commerce{
+    width: 101%;
+    height: 680px;
+}
+/*#E-commerce{
     right: 10px;
     position: relative;
     margin-top: 30px;
@@ -79,9 +83,9 @@ header a {
 }
 #E-commerce h1 {
     position: absolute;
-    top: 35%; /* Posiciona o elemento na metade superior da div */
-    left: 40%; /* Posiciona o elemento na metade esquerda da div */
-    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+    top: 35%; 
+    left: 40%; 
+    transform: 
     color:white;
     font-size: 35px;
     line-height: 100%;
@@ -89,9 +93,9 @@ header a {
 }
 #E-commerce p{
     position: absolute;
-    top: 50%; /* Posiciona o elemento na metade superior da div */
-    left: 40%; /* Posiciona o elemento na metade esquerda da div */
-    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+    top: 50%; 
+    left: 40%; 
+    transform: translate(-50%, -50%); 
     color:white;
     font-size: 20px;
     line-height: 120%;
@@ -111,7 +115,7 @@ header a {
     line-height: 50px; 
     text-align: center; 
     text-decoration: none;
-}
+}*/
 #aplicacoes{
     text-align: center;
     display: flex;

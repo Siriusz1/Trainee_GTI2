@@ -111,10 +111,17 @@ header a {
 #aplicacoes{
     margin-top: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#aplicacoes div{
-    display: inline-block;
-    margin-right: 50px;    
+#services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-items: center;
+    row-gap: 1rem;
 }
 #aplicacoes h1{
     color: black;
@@ -163,6 +170,19 @@ header a {
     width: 280px;
 
 }
+
+.pacote4{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.pacote4 img{
+    height: 150px;
+    width: 280px;
+
+}
+
 #ux{
     right: 10px;
     position: relative;

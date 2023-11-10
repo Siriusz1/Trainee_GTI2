@@ -1,0 +1,515 @@
+body{
+    width: 99%;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white; 
+    color: #fff; 
+    padding: 10px;
+    z-index: 1000; 
+}
+header a {
+    display: inline; /* tag para deixar as palavras (ou os itens de um determinado bloco em linhas */ 
+    margin-right: 25px; /* tag para definir o espaçamento entre as palavras*/
+    color:gray;
+    text-decoration: none; /* Tirar o sublinhado do A href */
+    font-size: 20px;
+} 
+#menud{
+    position: relative;
+    left:27%;
+}
+
+
+.carrinho{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-image: url('icones/carrinho-de-compras.png');
+    background-size: contain;
+
+}
+.icone {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-image: url('icones/ATI_icon.ico');
+    background-size: contain;
+}
+#E-commerce{
+    right: 10px;
+    position: relative;
+    margin-top: 30px;
+    width: 101%;
+    height: 680px;
+    background: url("Imagens/Background_E-commerce.jpg") no-repeat;
+    background-size: cover;
+}
+
+#E-commerce::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+#E-commerce h1 {
+    position: absolute;
+    top: 35%; /* Posiciona o elemento na metade superior da div */
+    left: 40%; /* Posiciona o elemento na metade esquerda da div */
+    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+    color:white;
+}
+#E-commerce p{
+    position: absolute;
+    top: 50%; /* Posiciona o elemento na metade superior da div */
+    left: 40%; /* Posiciona o elemento na metade esquerda da div */
+    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+    color:white;
+    font-size: 20px;
+
+}
+#E-commerce a {
+    width: 130px;
+    height: 50px;
+    border-radius:30px;
+    position: absolute;
+    top: 65%;
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 18px;
+    background-color: green;
+    line-height: 50px; 
+    text-align: center; 
+    text-decoration: none;
+}
+#aplicacoes{
+    margin-top: 50px;
+    text-align: center;
+}
+#aplicacoes div{
+    display: inline-block;
+    margin-right: 50px;    
+}
+#aplicacoes h1{
+    color: black;
+}
+#aplicacoes p{
+    font-size: 20px;
+    color: black;
+}
+#aplicacoes img{
+    margin-top: 50px;
+}
+.pacote1{
+    height: 400px;
+    width: 400px;
+    border: 0.5px solid black; 
+    background-color: white;
+    color: black;
+}
+.pacote1 img{
+    height: 150px;
+    width: 280px;
+
+}
+
+
+.pacote2{
+    height: 400px;
+    width: 400px;
+    background-color:white ;
+    border: 0.5px solid black;
+   
+}
+.pacote2 img{
+    height: 150px;
+    width: 280px;
+   
+}
+.pacote3{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.pacote3 img{
+    height: 150px;
+    width: 280px;
+
+}
+#ux{
+    right: 10px;
+    position: relative;
+    margin-top: 30px;
+    height: 680px;
+    background: url("Imagens/UI-UX-Design.jpg") no-repeat;
+    background-size: cover;
+    width: 101%;
+}
+#ux::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.673);
+}
+#ux h1{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    color: white;
+    
+}
+#ux p{
+    position: absolute;
+    font: bolder, 'Arial';
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    top: 45%;
+    left: 18%;
+}
+#ux a{
+    position: absolute;
+    top:69%;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color:white;
+    color: black;
+    width: 130px;
+    height: 50px;
+    left: 30%;
+    text-align: center;
+    line-height: 300%;
+   
+}
+#func{
+    position: relative; /*Lembrar de colocar o postion */
+    margin-top: 50px;
+
+}
+
+#func h2,h1{
+   text-align: center;
+}
+#func div {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    top: 30px;
+    vertical-align: top; 
+    margin-top: 10px;
+}
+
+#func01, #func02,#func03 {
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    text-align: center; 
+}
+
+#func01 p, #func02 p,#func03 p {
+    font-size: 16px;
+    text-align: center;
+}
+#func img{
+    width: 200px;
+    height: 150px;
+
+}
+#func a{
+    position: absolute;
+    top:105%;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color:green;
+    color: black;
+    width: 130px;
+    height: 50px;
+    left: 45%;
+    text-align: center;
+    line-height: 300%;
+    
+}
+#celular{
+    
+    right: 10px;
+    position: relative;
+    margin-top: 100px;
+    height: 750px;
+    background: url("Imagens/celular.jpg") no-repeat;
+    background-size: cover;
+    width: 101%;
+    
+}
+#celular::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.673);
+
+}
+#celular h1{
+    color:white;
+    position: relative;
+    top: 30%;
+    right: 20%;
+}
+#celular p{
+        position: relative;
+        top:35%;
+        left: 15%;
+        font-size: 18px;
+        line-height: 1.4;
+        color: white;
+        margin: 10px 0;
+        width: 500px;
+        height: 70px;
+}
+#celular a{
+    position: absolute;
+    top:80%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    width: 130px;
+    height: 50px;
+    left: 25%;
+    text-align: center;
+    line-height: 300%;
+}
+
+#video {
+    text-align: center; 
+}
+  video {
+   margin-top: 40px;
+    width: 80%;
+ }
+
+#empresas {
+    display: inline-block;
+    margin: 5px ; 
+    text-align: center; 
+  }
+  
+  #empresas img {
+    margin: 40px;
+    width: 150px;
+    height: auto; 
+
+    
+  }
+  #inspiracao{
+    right: 10px;
+    position: relative;
+    margin-top: 30px;
+    height: 680px;
+    background: url("Imagens/empresas.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    width: 101%;  
+  }
+#inspiracao::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.673);
+
+}
+#inspiracao h1{
+    position: relative;
+    top: 150px;
+    color: white;
+    right: 20%;
+
+}
+#inspiracao p{
+    position: relative;
+    top: 200px;
+    font-size: 18px;
+    color: white;
+    width: 500px;
+    height: 70px;
+    left: 150px;
+    
+}
+#inspiracao  a{
+    position: absolute;
+    top:70%;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    width: 200px;
+    height: 50px;
+    left: 20%;
+    text-align: center;
+    line-height: 300%;
+    
+}
+
+#rodap1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .conteudo-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1px; 
+  }
+  
+  .conteudo-inferior {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+    margin-right: 20px;
+  }
+.conteudo-inferior img{
+    margin-right: 50px;
+}
+  
+  #rodap1 p {
+    width: 500px;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  #rodap1 img {
+    width: 150px;
+    height: auto;
+  }
+
+  #rodap2{
+    right:10px ;
+    position: relative;
+    background-color: gray;
+    height: 600px;
+    margin-top: 10px;
+    width: 101%;
+    
+  }
+  .iconerp{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url('icones/ATI_icon.ico');
+    background-size: contain;
+}
+#rodap2 a{
+    font-size: 18px;
+    color: white;
+    
+}
+#pt1{
+    position: relative;
+    margin-left: 700px;
+    top: 15%;
+}
+#pt1 a{
+    text-decoration: none;
+}
+#pt2 a{
+    margin: 10px;
+    color:white;
+   
+}
+#pt2{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#pt2 a:not(:last-child)::after {
+    content: "|"; 
+    margin: 0 10px; 
+    color: white;
+ }
+#pt2{
+    position: relative;
+    margin-top: 30px;
+}
+#pt2 img{
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+#linha {
+    border: none;
+    border-top: 2px dotted white; 
+    width: 100%;
+    margin: 20px 0; 
+  }
+#pt3 a{
+    
+    position: absolute;
+    top:60%;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 60px;
+    left: 20%;
+    text-align: center;
+    line-height: 300%;
+
+}
+#pt3{
+    display: inline-block;
+}
+#pt3 p{
+    position: relative;
+    top: 120px;
+    left:800px;
+    width: 400px;
+    height: 10px;
+    color: white;
+
+}
+#link{
+    position: relative;
+    top: 180px;
+    left: 27%;
+    
+}
+#link a{
+    font-size: 18px;
+}
+#linha1{
+    margin-top: 230px;
+}
+#pt4{
+    text-align: center;
+    color: white;
+}
+#pt4 a{
+    color:white;
+}

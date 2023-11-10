@@ -1,3 +1,6 @@
+*{
+    font-family: Georgia, serif;
+}
 body{
     width: 99%;
 
@@ -20,6 +23,7 @@ header a {
     text-decoration: none; /* Tirar o sublinhado do A href */
     font-size: 20px;
 } 
+
 #menud{
     position: relative;
     left:27%;
@@ -78,7 +82,7 @@ header a {
     font-size: 20px;
 
 }
-#E-commerce a {
+#E-commerce #btn {
     width: 130px;
     height: 50px;
     border-radius:30px;
